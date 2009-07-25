@@ -1,0 +1,34 @@
+server        : s***.xrea.com
+domain        : your.domain.example
+username      : your_name
+password      : your_password
+log_directory : /log
+local_file    : log.tmp
+except_agents :
+    - Another_HTML-lint
+    - Baiduspider
+    - BlogPeople Java
+    - BuzzBot
+    - Fastladder FeedFetcher
+    - Feedfetcher-Google
+    - Google-Site-Verification
+    - Google-Sitemaps
+    - Googlebot
+    - HTMLParser
+    - Jakarta Commons-HttpClient
+    - MovableType
+    - PEAR::Services_Trackback
+    - Rome Client
+    - Spinn3r
+    - TrackBack
+    - Twiceler
+    - WWW-Mechanize
+    - Y!J-BSC
+    - Y!J-DSC
+    - Yahoo! Slurp
+    - blogmuraBot
+    - gooblog
+    - ia_archiver
+    - livedoor FeedFetcher
+    - newsmuraBot
+my_host       : your_host
